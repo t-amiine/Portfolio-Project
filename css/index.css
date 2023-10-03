@@ -1,0 +1,112 @@
+* {font-family: 'Alegreya Sans SC', sans-serif; padding: 0; margin: 0;}
+ul  {list-style: none; display: flex;}
+a {text-decoration: none;}
+.container {width: 85%; margin: 0 auto; justify-content: space-between; align-items: center;}
+
+header {
+    height: 80px;
+    background-color: #EAEAEA;
+}
+header .container {
+    height: 80px;
+    display: flex;
+}
+header a,
+.proj-1 a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #000000;
+    font-weight: 600;
+}
+a:hover {color: rgb(23, 23, 121);}
+a.aBig,
+.proj-1 a {
+    background-color: #000;
+    color: #ffff;
+}
+.hero {
+    margin-top: 153px;
+    height: 141px;
+}
+.hFirst {
+    display: flex;
+    justify-content: space-between;
+}
+.hFirst h1, .hFirst h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.hFirst h3 {
+    font-size: 25px;
+}
+.hSecond p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+#AboutMe {
+    margin-top: 160px;
+    height: 620px;
+    background-image: url(../img/hero-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#AboutMe .container {
+    height: 620px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 19px;
+}
+#AboutMe .container p, #AboutMe .container h2 {color: #ffffff;}
+#Experience {
+    margin-top: 120px;
+}
+
+#Projects {
+    margin-top: 120px;
+    height: auto + 50px;
+    margin-bottom: 100px;
+}
+.pHead {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pHead h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+.pHead a {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
+}
+#Projects .PBody {
+    margin-top: 20px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.proj-1 {
+    width: 45%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.proj-1 h1 {
+    font-weight: 900;
+
+}
+.proj-1 p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.proj-1 a {
+    margin: 0;
+}
